@@ -43,7 +43,7 @@ df <- data.frame(
                "Types of variables: qualitative vs quantitative, continuous vs discrete, Scales of measurement",
                "Organizing Biological Data for Analysis",
                "Key Statistical Terminologies: Population, Sample, Parameter, Statistic, Descriptive statistics, Inferential statistics",
-               "Random vs Non-random Sample",
+               "Random vs Non-random Sampling",
                "Introduction to Design of Experiments",
                "Data visualisation",
                "Summary measures",
