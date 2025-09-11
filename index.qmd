@@ -2,7 +2,16 @@
 title: "Biostatistics and Data Analysis"
 ---
 
-This course is designed for students with no prior experience in statistics or R programming. We will start right from the basics. Each topic in this  course unit will include a practical session using R.
+## Degree programme
+
+- MSc / Postgraduate Diploma in Fisheries and Aquatic Resources Management, University of Sri Jayewardenepura
+
+
+
+## About the course unit
+
+
+This course is designed for students with **no prior** experience in statistics or R programming. We will start right from the basics. Each topic in this  course unit will include a practical session using R.
 
 Why Use R Software for Data Analysis?
 
