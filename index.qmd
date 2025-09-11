@@ -1,11 +1,91 @@
 ---
-title: "biostatistics"
+title: "Biostatistics and Data Analysis"
 ---
 
-This is a Quarto website.
+This course is designed for students with no prior experience in statistics or R programming. We will start right from the basics. Each topic in this  course unit will include a practical session using R.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Why Use R Software for Data Analysis?
 
-```{r}
-1 + 1
+- Free and Open-Source
+
+- Rapidly developing 
+
+- Excellent for Visualization and statistical data analysis
+
+- Active community of users and developers
+
+```{r, echo=FALSE, message=FALSE}
+library(knitr)
+library(kableExtra)
+
+No <- c(1, "", "", "",
+        2, "",
+        3, "",
+        4, "",
+        5, "",
+        6, 
+        7, "",
+        8, "", "", "",
+        9, "", "",
+        10, "")
+Topic <- c("Introdiction to Statistics", "", "", "",
+           "Data Collection and Sampling", "",
+           "Descriptive Statistics", "",
+           "Introduction to Data Analysis with R", "",
+           "Probability and Distributions", "", 
+           "Statistical Inference", 
+           "Parametric Tests", "",
+           "Non-parametric Tests", "", "", "",
+           "Correlation and Regression", "", "",
+           "Way Forward", "")
+Subtopic <- c("Role of statistics in zoology and biological sciences", #1
+              "Types of variables: qualitative vs quantitative, continuous vs discrete, Scales of measurement",
+              "Organizing Biological Data for Analysis",
+              "Key Statistical Terminologies: Population, Sample, Parameter, Statistic, Descriptive statistics, Inferential statistics",
+              "Random vs Non-random Sample", #2
+              "Introduction to Design of Experiments",
+              "Data visualisation",#3
+              "Summary measures", 
+              "Introduction to R and RStudio", #4
+              "Exploratory Data Analysis with R",
+              "Basic probability rules", #5
+              "Normal distribution, binomial distribution, Poisson distribution",
+              "Estimation and Hypothesis Testing ", #6
+              "t-tests (one-sample, two-sample, paired)",#7
+              "One-way ANOVA for comparing >2 groups",
+              "Chi-square test for independence/goodness of fit", #8
+              "Mann–Whitney U test", 
+              "Wilcoxon signed-rank test", 
+              "Kruskal–Wallis test",
+              "Correlation", #9
+              "Simple Linear Regression Analysis",
+              "Multiple Linear Regression Analysis",
+              "Getting Aware of Advanced Topics:", "Clustering, Principal Component Analysis, Spatio-temporal Data Analsysis"
+              )
+Materials <- rep("", length(No))
+Exercises <- rep("", length(No))
+
+df <- data.frame(No,
+                 Topic,
+                 Subtopic,
+                 Materials,
+                 Exercises)
+
+# Create kable with highlighted rows and all others white
+df %>%
+  kable("html", escape = FALSE) %>%
+  kable_styling(full_width = TRUE, stripe_color = NULL) %>%  # disables default striping
+  row_spec(0, bold = TRUE, background = "white") %>%         # header
+  row_spec(1:nrow(df), background = "white") %>%             # all rows default white
+  row_spec(c(1,5,7,9,11,13,14,16,20,23), background = "#fff3cd")  # highlighted rows
+```
+
+
+```{r, eval=FALSE, echo=FALSE}
+length(No)
+length(Topic)
+length(Subtopic)
+length(Materials)
+length(Exercises)
+
 ```
