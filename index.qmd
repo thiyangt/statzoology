@@ -27,67 +27,56 @@ Why Use R Software for Data Analysis?
 library(knitr)
 library(kableExtra)
 
-No <- c(1, "", "", "",
-        2, "",
-        3, "",
-        4, "",
-        5, "",
-        6, 
-        7, "",
-        8, "", "", "",
-        9, "", "",
-        10, "")
-Topic <- c("Introdiction to Statistics", "", "", "",
-           "Data Collection and Sampling", "",
-           "Descriptive Statistics", "",
-           "Introduction to Data Analysis with R", "",
-           "Probability and Distributions", "", 
-           "Statistical Inference", 
-           "Parametric Tests", "",
-           "Non-parametric Tests", "", "", "",
-           "Correlation and Regression", "", "",
-           "Way Forward", "")
-Subtopic <- c("Role of statistics in zoology and biological sciences", #1
-              "Types of variables: qualitative vs quantitative, continuous vs discrete, Scales of measurement",
-              "Organizing Biological Data for Analysis",
-              "Key Statistical Terminologies: Population, Sample, Parameter, Statistic, Descriptive statistics, Inferential statistics",
-              "Random vs Non-random Sample", #2
-              "Introduction to Design of Experiments",
-              "Data visualisation",#3
-              "Summary measures", 
-              "Introduction to R and RStudio", #4
-              "Exploratory Data Analysis with R",
-              "Basic probability rules", #5
-              "Normal distribution, binomial distribution, Poisson distribution",
-              "Estimation and Hypothesis Testing ", #6
-              "t-tests (one-sample, two-sample, paired)",#7
-              "One-way ANOVA for comparing >2 groups",
-              "Chi-square test for independence/goodness of fit", #8
-              "Mann–Whitney U test", 
-              "Wilcoxon signed-rank test", 
-              "Kruskal–Wallis test",
-              "Correlation", #9
-              "Simple Linear Regression Analysis",
-              "Multiple Linear Regression Analysis",
-              "Getting Aware of Advanced Topics:", "Clustering, Principal Component Analysis, Spatio-temporal Data Analsysis"
-              )
-Materials <- rep("", length(No))
-Exercises <- rep("", length(No))
+# Sample data frame
+df <- data.frame(
+  No = c(1, "", "", "", 2, "", 3, "", 4, "", 5, "", 6, 7, "", 8, "", "", "", 9, "", "", 10, ""),
+  Topic = c("Introdiction to Statistics", "", "", "", 
+            "Data Collection and Sampling", "", 
+            "Descriptive Statistics", "", 
+            "Introduction to Data Analysis with R", "", 
+            "Probability and Distributions", "", 
+            "Statistical Inference", "Parametric Tests", "", 
+            "Non-parametric Tests", "", "", "", 
+            "Correlation and Regression", "", "", 
+            "Way Forward", ""),
+  Subtopic = c("Role of statistics in zoology and biological sciences",
+               "Types of variables: qualitative vs quantitative, continuous vs discrete, Scales of measurement",
+               "Organizing Biological Data for Analysis",
+               "Key Statistical Terminologies: Population, Sample, Parameter, Statistic, Descriptive statistics, Inferential statistics",
+               "Random vs Non-random Sample",
+               "Introduction to Design of Experiments",
+               "Data visualisation",
+               "Summary measures",
+               "Introduction to R and RStudio",
+               "Exploratory Data Analysis with R",
+               "Basic probability rules",
+               "Normal distribution, binomial distribution, Poisson distribution",
+               "Estimation and Hypothesis Testing",
+               "t-tests (one-sample, two-sample, paired)",
+               "One-way ANOVA for comparing >2 groups",
+               "Chi-square test for independence/goodness of fit",
+               "Mann–Whitney U test",
+               "Wilcoxon signed-rank test",
+               "Kruskal–Wallis test",
+               "Correlation",
+               "Simple Linear Regression Analysis",
+               "Multiple Linear Regression Analysis",
+               "Getting Aware of Advanced Topics:",
+               "Clustering, Principal Component Analysis, Spatio-temporal Data Analysis"),
+  Materials = rep("", 24),
+  Exercises = rep("", 24)
+)
 
-df <- data.frame(No,
-                 Topic,
-                 Subtopic,
-                 Materials,
-                 Exercises)
-
-# Create kable with highlighted rows and all others white
+# Quarto HTML table without default striping
 df %>%
   kable("html", escape = FALSE) %>%
-  kable_styling(full_width = TRUE, stripe_color = NULL) %>%  # disables default striping
-  row_spec(0, bold = TRUE, background = "white") %>%         # header
-  row_spec(1:nrow(df), background = "white") %>%             # all rows default white
-  row_spec(c(1,5,7,9,11,13,14,16,20,23), background = "#fff3cd")  # highlighted rows
+  kable_styling(full_width = TRUE, bootstrap_options = "basic") %>%  # disables Quarto/Bootstrap striping
+  row_spec(0, bold = TRUE, background = "white") %>%                 # header white
+  row_spec(1:nrow(df), background = "white") %>%                     # all rows white
+  row_spec(c(1,5,7,9,11,13,14,16,20,23), background = "#fff3cd")  
 ```
+
+
 
 
 ```{r, eval=FALSE, echo=FALSE}
