@@ -4,24 +4,21 @@ title: "Biostatistics and Data Analysis"
 
 ## Degree programme
 
-- MSc / Postgraduate Diploma in Fisheries and Aquatic Resources Management, University of Sri Jayewardenepura
-
-
+-   MSc / Postgraduate Diploma in Fisheries and Aquatic Resources Management, University of Sri Jayewardenepura
 
 ## About the course unit
 
-
-This course is designed for students with **no prior** experience in statistics or R programming. We will start right from the basics. Each topic in this  course unit will include a practical session using R.
+This course is designed for students with **no prior** experience in statistics or R programming. We will start right from the basics. Each topic in this course unit will include a practical session using R.
 
 Why Use R Software for Data Analysis?
 
-- Free and Open-Source
+-   Free and Open-Source
 
-- Rapidly developing 
+-   Rapidly developing
 
-- Excellent for Visualization and statistical data analysis
+-   Excellent for Visualization and statistical data analysis
 
-- Active community of users and developers
+-   Active community of users and developers
 
 ```{r, echo=FALSE, message=FALSE}
 library(knitr)
@@ -63,7 +60,9 @@ df <- data.frame(
                "Multiple Linear Regression Analysis",
                "Getting Aware of Advanced Topics:",
                "Clustering, Principal Component Analysis, Spatio-temporal Data Analysis"),
-  Materials = rep("", 24),
+  Materials = c("Slides 1"
+,"Slides 2-1", "Slides 2-2", "Slides 3"
+,rep("", 20)),
   Exercises = rep("", 24)
 )
 
@@ -76,9 +75,6 @@ df %>%
   row_spec(c(1,5,7,9,11,13,14,16,20,23), background = "#fff3cd")  
 ```
 
-
-
-
 ```{r, eval=FALSE, echo=FALSE}
 length(No)
 length(Topic)
@@ -87,3 +83,14 @@ length(Materials)
 length(Exercises)
 
 ```
+
+
+## Slides
+
+[Slides 1](./week1/index.html)
+
+[Slides 2-1](./week3/index.html)
+
+[Slides 2-2](./week4/index.html)
+
+[Slides 3](./week2/index.html)
