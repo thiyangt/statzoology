@@ -20,6 +20,18 @@ Why Use R Software for Data Analysis?
 
 -   Active community of users and developers
 
+## Lecturer-in-charge
+
+[Dr Thiyanga S. Talagala](https://thiyanga.netlify.app/)
+
+Email: ttalagala@sjp.ac.lk
+
+## Reference book
+
+[Biostatistics and Data Analysis for Zoologists](https://thiyangt.github.io/BDAZ/)
+
+## Unit Road Map
+
 ```{r, echo=FALSE, message=FALSE}
 library(knitr)
 library(kableExtra)
@@ -83,7 +95,6 @@ length(Materials)
 length(Exercises)
 
 ```
-
 
 ## Slides
 

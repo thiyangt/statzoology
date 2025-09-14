@@ -18,7 +18,7 @@
     "href": "index.html#about-the-course-unit",
     "title": "Biostatistics and Data Analysis",
     "section": "About the course unit",
-    "text": "About the course unit\nThis course is designed for students with no prior experience in statistics or R programming. We will start right from the basics. Each topic in this course unit will include a practical session using R.\nWhy Use R Software for Data Analysis?\n\nFree and Open-Source\nRapidly developing\nExcellent for Visualization and statistical data analysis\nActive community of users and developers\n\n\n\n\n\n\nNo\nTopic\nSubtopic\nMaterials\nExercises\n\n\n\n\n1\nIntrodiction to Statistics\nRole of statistics in zoology and biological sciences\nSlides 1\n\n\n\n\n\nTypes of variables: qualitative vs quantitative, continuous vs discrete, Scales of measurement\nSlides 2-1\n\n\n\n\n\nOrganizing Biological Data for Analysis\nSlides 2-2\n\n\n\n\n\nKey Statistical Terminologies: Population, Sample, Parameter, Statistic, Descriptive statistics, Inferential statistics\nSlides 3\n\n\n\n2\nData Collection and Sampling\nRandom vs Non-random Sampling\n\n\n\n\n\n\nIntroduction to Design of Experiments\n\n\n\n\n3\nDescriptive Statistics\nData visualisation\n\n\n\n\n\n\nSummary measures\n\n\n\n\n4\nIntroduction to Data Analysis with R\nIntroduction to R and RStudio\n\n\n\n\n\n\nExploratory Data Analysis with R\n\n\n\n\n5\nProbability and Distributions\nBasic probability rules\n\n\n\n\n\n\nNormal distribution, binomial distribution, Poisson distribution\n\n\n\n\n6\nStatistical Inference\nEstimation and Hypothesis Testing\n\n\n\n\n7\nParametric Tests\nt-tests (one-sample, two-sample, paired)\n\n\n\n\n\n\nOne-way ANOVA for comparing &gt;2 groups\n\n\n\n\n8\nNon-parametric Tests\nChi-square test for independence/goodness of fit\n\n\n\n\n\n\nMann–Whitney U test\n\n\n\n\n\n\nWilcoxon signed-rank test\n\n\n\n\n\n\nKruskal–Wallis test\n\n\n\n\n9\nCorrelation and Regression\nCorrelation\n\n\n\n\n\n\nSimple Linear Regression Analysis\n\n\n\n\n\n\nMultiple Linear Regression Analysis\n\n\n\n\n10\nWay Forward\nGetting Aware of Advanced Topics:\n\n\n\n\n\n\nClustering, Principal Component Analysis, Spatio-temporal Data Analysis"
+    "text": "About the course unit\nThis course is designed for students with no prior experience in statistics or R programming. We will start right from the basics. Each topic in this course unit will include a practical session using R.\nWhy Use R Software for Data Analysis?\n\nFree and Open-Source\nRapidly developing\nExcellent for Visualization and statistical data analysis\nActive community of users and developers"
   },
   {
     "objectID": "week1/index.html#learning-objective",
@@ -502,5 +502,26 @@
     "title": "Biostatistics and Data Analysis",
     "section": "",
     "text": "The complete collection of individuals or objects that are of interest.\n\nknitr::include_graphics(\"ip2.png\")"
+  },
+  {
+    "objectID": "index.html#lecturer-in-charge",
+    "href": "index.html#lecturer-in-charge",
+    "title": "Biostatistics and Data Analysis",
+    "section": "Lecturer-in-charge",
+    "text": "Lecturer-in-charge\nDr Thiyanga S. Talagala\nEmail: ttalagala@sjp.ac.lk"
+  },
+  {
+    "objectID": "index.html#reference-book",
+    "href": "index.html#reference-book",
+    "title": "Biostatistics and Data Analysis",
+    "section": "Reference book",
+    "text": "Reference book\nBiostatistics and Data Analysis for Zoologists"
+  },
+  {
+    "objectID": "index.html#unit-road-map",
+    "href": "index.html#unit-road-map",
+    "title": "Biostatistics and Data Analysis",
+    "section": "Unit Road Map",
+    "text": "Unit Road Map\n\n\n\n\n\nNo\nTopic\nSubtopic\nMaterials\nExercises\n\n\n\n\n1\nIntrodiction to Statistics\nRole of statistics in zoology and biological sciences\nSlides 1\n\n\n\n\n\nTypes of variables: qualitative vs quantitative, continuous vs discrete, Scales of measurement\nSlides 2-1\n\n\n\n\n\nOrganizing Biological Data for Analysis\nSlides 2-2\n\n\n\n\n\nKey Statistical Terminologies: Population, Sample, Parameter, Statistic, Descriptive statistics, Inferential statistics\nSlides 3\n\n\n\n2\nData Collection and Sampling\nRandom vs Non-random Sampling\n\n\n\n\n\n\nIntroduction to Design of Experiments\n\n\n\n\n3\nDescriptive Statistics\nData visualisation\n\n\n\n\n\n\nSummary measures\n\n\n\n\n4\nIntroduction to Data Analysis with R\nIntroduction to R and RStudio\n\n\n\n\n\n\nExploratory Data Analysis with R\n\n\n\n\n5\nProbability and Distributions\nBasic probability rules\n\n\n\n\n\n\nNormal distribution, binomial distribution, Poisson distribution\n\n\n\n\n6\nStatistical Inference\nEstimation and Hypothesis Testing\n\n\n\n\n7\nParametric Tests\nt-tests (one-sample, two-sample, paired)\n\n\n\n\n\n\nOne-way ANOVA for comparing &gt;2 groups\n\n\n\n\n8\nNon-parametric Tests\nChi-square test for independence/goodness of fit\n\n\n\n\n\n\nMann–Whitney U test\n\n\n\n\n\n\nWilcoxon signed-rank test\n\n\n\n\n\n\nKruskal–Wallis test\n\n\n\n\n9\nCorrelation and Regression\nCorrelation\n\n\n\n\n\n\nSimple Linear Regression Analysis\n\n\n\n\n\n\nMultiple Linear Regression Analysis\n\n\n\n\n10\nWay Forward\nGetting Aware of Advanced Topics:\n\n\n\n\n\n\nClustering, Principal Component Analysis, Spatio-temporal Data Analysis"
   }
 ]
