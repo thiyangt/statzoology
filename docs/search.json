@@ -336,11 +336,18 @@
     "text": "Unit Road Map\n\n\n\n\n\nNo\nTopic\nSubtopic\nMaterials\nExercises\n\n\n\n\n1\nIntrodiction to Statistics\nRole of statistics in zoology and biological sciences\nSlides 1\n\n\n\n\n\nTypes of variables: qualitative vs quantitative, continuous vs discrete, Scales of measurement\nSlides 2-1\n\n\n\n\n\nOrganizing Biological Data for Analysis\nSlides 2-2\n\n\n\n\n\nKey Statistical Terminologies: Population, Sample, Parameter, Statistic, Descriptive statistics, Inferential statistics\nSlides 3\n\n\n\n2\nData Collection and Sampling\nRandom vs Non-random Sampling\n\n\n\n\n\n\nIntroduction to Design of Experiments\n\n\n\n\n3\nDescriptive Statistics\nData visualisation\n\n\n\n\n\n\nSummary measures\n\n\n\n\n4\nIntroduction to Data Analysis with R\nIntroduction to R and RStudio\n\n\n\n\n\n\nExploratory Data Analysis with R\n\n\n\n\n5\nProbability and Distributions\nBasic probability rules\n\n\n\n\n\n\nNormal distribution, binomial distribution, Poisson distribution\n\n\n\n\n6\nStatistical Inference\nEstimation and Hypothesis Testing\n\n\n\n\n7\nParametric Tests\nt-tests (one-sample, two-sample, paired)\n\n\n\n\n\n\nOne-way ANOVA for comparing &gt;2 groups\n\n\n\n\n8\nNon-parametric Tests\nChi-square test for independence/goodness of fit\n\n\n\n\n\n\nMann–Whitney U test\n\n\n\n\n\n\nWilcoxon signed-rank test\n\n\n\n\n\n\nKruskal–Wallis test\n\n\n\n\n9\nCorrelation and Regression\nCorrelation\n\n\n\n\n\n\nSimple Linear Regression Analysis\n\n\n\n\n\n\nMultiple Linear Regression Analysis\n\n\n\n\n10\nWay Forward\nGetting Aware of Advanced Topics:\n\n\n\n\n\n\nClustering, Principal Component Analysis, Spatio-temporal Data Analysis"
   },
   {
-    "objectID": "index.html#slides",
-    "href": "index.html#slides",
+    "objectID": "index.html#week-1-14-sep-2025-9am---12noon",
+    "href": "index.html#week-1-14-sep-2025-9am---12noon",
     "title": "Biostatistics and Data Analysis",
-    "section": "Slides",
-    "text": "Slides\nSlides 1\nSlides 2-1\nSlides 2-2\nSlides 3"
+    "section": "Week 1: 14 Sep 2025 (9am - 12noon)",
+    "text": "Week 1: 14 Sep 2025 (9am - 12noon)\nSlides 1\nSlides 2-1\nSlides 2-2\nSlides 3"
+  },
+  {
+    "objectID": "index.html#week-2-20-sep-2025-1pm---4pm",
+    "href": "index.html#week-2-20-sep-2025-1pm---4pm",
+    "title": "Biostatistics and Data Analysis",
+    "section": "Week 2: 20 Sep 2025 (1pm - 4pm)",
+    "text": "Week 2: 20 Sep 2025 (1pm - 4pm)\nIntroduction to R, RStudio\nR programming basics\nIntroduction to tidyverse\nLecture note: https://thiyangt.github.io/BDAZ/03-chap3.html"
   },
   {
     "objectID": "week1/index.html#learning-objective",
@@ -361,7 +368,7 @@
     "href": "week1/index.html#summary-measures",
     "title": "Biostatistics and Data Analysis",
     "section": "Summary measures",
-    "text": "Summary measures\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :0.600\nMin. :0.900\nMin. :1018\n\n\n\nMale :50\n1st Qu.: 99.30\n1st Qu.:2.500\n1st Qu.:2.875\n1st Qu.:2954\n\n\n\nNA\nMedian :100.00\nMedian :3.200\nMedian :3.350\nMedian :4103\n\n\n\nNA\nMean : 99.26\nMean :3.253\nMean :3.391\nMean :4097\n\n\n\nNA\n3rd Qu.:100.50\n3rd Qu.:4.050\n3rd Qu.:3.900\n3rd Qu.:5006\n\n\n\nNA\nMax. :110.00\nMax. :5.800\nMax. :6.300\nMax. :8705"
+    "text": "Summary measures\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :0.600\nMin. :1.600\nMin. :1034\n\n\n\nMale :50\n1st Qu.: 99.20\n1st Qu.:2.600\n1st Qu.:2.975\n1st Qu.:3364\n\n\n\nNA\nMedian : 99.85\nMedian :3.400\nMedian :3.500\nMedian :4136\n\n\n\nNA\nMean : 99.16\nMean :3.385\nMean :3.550\nMean :4288\n\n\n\nNA\n3rd Qu.:100.50\n3rd Qu.:4.200\n3rd Qu.:4.200\n3rd Qu.:5031\n\n\n\nNA\nMax. :110.00\nMax. :5.900\nMax. :6.300\nMax. :8357"
   },
   {
     "objectID": "week1/index.html#presenting-data-example",

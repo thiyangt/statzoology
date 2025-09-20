@@ -96,7 +96,7 @@ length(Exercises)
 
 ```
 
-## Slides
+## Week 1: 14 Sep 2025 (9am - 12noon)
 
 [Slides 1](./week1/index.html)
 
@@ -105,3 +105,13 @@ length(Exercises)
 [Slides 2-2](./week4/index.html)
 
 [Slides 3](./week2/index.html)
+
+## Week 2: 20 Sep 2025 (1pm - 4pm)
+
+Introduction to R, RStudio
+
+R programming basics
+
+Introduction to tidyverse
+
+Lecture note: https://thiyangt.github.io/BDAZ/03-chap3.html
