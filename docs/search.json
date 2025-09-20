@@ -361,7 +361,7 @@
     "href": "week1/index.html#summary-measures",
     "title": "Biostatistics and Data Analysis",
     "section": "Summary measures",
-    "text": "Summary measures\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :1.200\nMin. :1.400\nMin. :1729\n\n\n\nMale :50\n1st Qu.: 99.40\n1st Qu.:2.775\n1st Qu.:3.000\n1st Qu.:3214\n\n\n\nNA\nMedian :100.10\nMedian :3.250\nMedian :3.550\nMedian :4224\n\n\n\nNA\nMean : 99.39\nMean :3.309\nMean :3.573\nMean :4239\n\n\n\nNA\n3rd Qu.:100.70\n3rd Qu.:3.900\n3rd Qu.:4.100\n3rd Qu.:5014\n\n\n\nNA\nMax. :110.00\nMax. :6.100\nMax. :6.300\nMax. :9221"
+    "text": "Summary measures\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :0.600\nMin. :0.900\nMin. :1018\n\n\n\nMale :50\n1st Qu.: 99.30\n1st Qu.:2.500\n1st Qu.:2.875\n1st Qu.:2954\n\n\n\nNA\nMedian :100.00\nMedian :3.200\nMedian :3.350\nMedian :4103\n\n\n\nNA\nMean : 99.26\nMean :3.253\nMean :3.391\nMean :4097\n\n\n\nNA\n3rd Qu.:100.50\n3rd Qu.:4.050\n3rd Qu.:3.900\n3rd Qu.:5006\n\n\n\nNA\nMax. :110.00\nMax. :5.800\nMax. :6.300\nMax. :8705"
   },
   {
     "objectID": "week1/index.html#presenting-data-example",
