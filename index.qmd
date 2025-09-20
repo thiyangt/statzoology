@@ -24,7 +24,7 @@ Why Use R Software for Data Analysis?
 
 [Dr Thiyanga S. Talagala](https://thiyanga.netlify.app/)
 
-Email: ttalagala@sjp.ac.lk
+Email: ttalagala\@sjp.ac.lk
 
 ## Reference book
 
@@ -100,7 +100,7 @@ length(Exercises)
 
 [Slides 1](./week1/index.html)
 
-[Slides 2-1](./week3/index.html)
+[Slides 2-1](./Week3/index.html)
 
 [Slides 2-2](./week4/index.html)
 
