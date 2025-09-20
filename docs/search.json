@@ -28,25 +28,25 @@
     "text": "Variable description\n\n\n\n\n\n\n\n\n\nVariable name\nVariable description\n\n\n\n\nspecies\npenguin species (Adélie, Chinstrap and Gentoo)\n\n\nisland\nisland in Palmer Archipelago, Antarctica (Biscoe, Dream or Torgersen)\n\n\nbill_length_mm\nbill length (millimeters)\n\n\nbill_depth_mm\nbill depth (millimeters)\n\n\nflipper_length_mm\nflipper length (millimeters)\n\n\nbody_mass_g\nbody mass (grams)\n\n\ngender\npenguin gender (female, male)\n\n\nyear\nthe study year (2007, 2008, or 2009)"
   },
   {
-    "objectID": "week4/index.html#types-of-data",
-    "href": "week4/index.html#types-of-data",
+    "objectID": "week4/index.html#types-of-variables",
+    "href": "week4/index.html#types-of-variables",
     "title": "Biostatistics and Data Analysis",
-    "section": "Types of data",
-    "text": "Types of data"
+    "section": "Types of Variables",
+    "text": "Types of Variables"
   },
   {
-    "objectID": "week4/index.html#qualitative-categorical-data",
-    "href": "week4/index.html#qualitative-categorical-data",
+    "objectID": "week4/index.html#qualitative-categorical-variables",
+    "href": "week4/index.html#qualitative-categorical-variables",
     "title": "Biostatistics and Data Analysis",
-    "section": "Qualitative/ Categorical Data",
-    "text": "Qualitative/ Categorical Data\n\nDescribes categories or groups\nNon-numeric (no numerical meaning)\nExamples:\n\ncolors: red, blue, green\n\ngender: male, female\ntypes of animals: non-mammal mammal\n\n\nYour turn: Identify qualitative variables in the penguins dataset."
+    "section": "Qualitative/ Categorical Variables",
+    "text": "Qualitative/ Categorical Variables\n\nDescribes categories or groups\nNon-numeric (no numerical meaning)\nExamples:\n\ncolors: red, blue, green\n\ngender: male, female\ntypes of animals: non-mammal mammal\n\n\nYour turn: Identify qualitative variables in the penguins dataset."
   },
   {
-    "objectID": "week4/index.html#quantitative-data-numerical-data",
-    "href": "week4/index.html#quantitative-data-numerical-data",
+    "objectID": "week4/index.html#quantitative-variables-numerical-variables",
+    "href": "week4/index.html#quantitative-variables-numerical-variables",
     "title": "Biostatistics and Data Analysis",
-    "section": "Quantitative data/ Numerical Data",
-    "text": "Quantitative data/ Numerical Data\n\nRepresents measurable quantities\nNumeric\nExamples:\n\nHeight in cm\nWeight in kg\n\n\nYour turn: Identify quantitative variables in the penguins dataset."
+    "section": "Quantitative Variables/ Numerical Variables",
+    "text": "Quantitative Variables/ Numerical Variables\n\nRepresents measurable quantities\nNumeric\nExamples:\n\nHeight in cm\nWeight in kg\n\n\nYour turn: Identify quantitative variables in the penguins dataset."
   },
   {
     "objectID": "week4/index.html#your-turn-identify-discrete-and-continuous-variables",
@@ -273,46 +273,25 @@
     "text": "Copyright\nUp until slide 13 and slides 23-26, every image has been authored by Dr Thiyanga S. Talagala. Hence, all images up to slide 14 and 23-26 are copyrighted by Thiyanga S. Talagala."
   },
   {
-    "objectID": "week1/index.html#learning-objective",
-    "href": "week1/index.html#learning-objective",
-    "title": "Biostatistics and Data Analysis",
-    "section": "Learning Objective:",
-    "text": "Learning Objective:\nBy the end of this lecture, students will be able to:\n\nDefine statistics and explain its fundamental concepts.\nIdentify the various fields and contexts where statistics is used.\nExplain the importance and significance of statistics in decision-making and problem-solving processes."
+    "objectID": "week2/03-chap3.html",
+    "href": "week2/03-chap3.html",
+    "title": "Introduction to R programming basics and R studio",
+    "section": "",
+    "text": "R is a programming language and software environment designed mainly for statistical computing, data analysis, and visualization.\n\n\n\nFree and Open-Source\nRapidly developing\nExcellent for Visualization and statistical data analysis\nActive community of users and developers\n\n\n\n\n\nAn Integrated Development Environment (IDE) for R.\n\n\nMakes working with R much easier."
   },
   {
-    "objectID": "week1/index.html#what-is-statistics",
-    "href": "week1/index.html#what-is-statistics",
-    "title": "Biostatistics and Data Analysis",
-    "section": "What is Statistics?",
-    "text": "What is Statistics?\n\nThe science of collecting, organizing, and analyzing data, and presenting and interpreting the results derived from that data to gain insights and make informed decisions."
+    "objectID": "week2/03-chap3.html#what-is-r-and-rstudio",
+    "href": "week2/03-chap3.html#what-is-r-and-rstudio",
+    "title": "Introduction to R programming basics and R studio",
+    "section": "",
+    "text": "R is a programming language and software environment designed mainly for statistical computing, data analysis, and visualization.\n\n\n\nFree and Open-Source\nRapidly developing\nExcellent for Visualization and statistical data analysis\nActive community of users and developers"
   },
   {
-    "objectID": "week1/index.html#summary-measures",
-    "href": "week1/index.html#summary-measures",
-    "title": "Biostatistics and Data Analysis",
-    "section": "Summary measures",
-    "text": "Summary measures\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :0.800\nMin. :1.700\nMin. :1180\n\n\n\nMale :50\n1st Qu.: 99.10\n1st Qu.:2.800\n1st Qu.:3.075\n1st Qu.:3326\n\n\n\nNA\nMedian :100.00\nMedian :3.300\nMedian :3.600\nMedian :4116\n\n\n\nNA\nMean : 99.17\nMean :3.315\nMean :3.642\nMean :4246\n\n\n\nNA\n3rd Qu.:100.62\n3rd Qu.:3.900\n3rd Qu.:4.200\n3rd Qu.:5160\n\n\n\nNA\nMax. :110.00\nMax. :5.600\nMax. :6.300\nMax. :7550"
-  },
-  {
-    "objectID": "week1/index.html#presenting-data-example",
-    "href": "week1/index.html#presenting-data-example",
-    "title": "Biostatistics and Data Analysis",
-    "section": "Presenting Data: Example",
-    "text": "Presenting Data: Example\nhttps://thiyangt.github.io/dsjobtraker_dashboard_mc/#top-software-and-skills"
-  },
-  {
-    "objectID": "week1/index.html#from-the-tracking-data-of-elephants-researchers-gained-insights-into-their-behavior-such-as-which-habitats-they-preferred-during-dry-seasons-and-how-migration-routes-changed-with-rainfall-patterns.",
-    "href": "week1/index.html#from-the-tracking-data-of-elephants-researchers-gained-insights-into-their-behavior-such-as-which-habitats-they-preferred-during-dry-seasons-and-how-migration-routes-changed-with-rainfall-patterns.",
-    "title": "Biostatistics and Data Analysis",
-    "section": "From the tracking data of elephants, researchers gained insights into their behavior — such as which habitats they preferred during dry seasons and how migration routes changed with rainfall patterns.",
-    "text": "From the tracking data of elephants, researchers gained insights into their behavior — such as which habitats they preferred during dry seasons and how migration routes changed with rainfall patterns."
-  },
-  {
-    "objectID": "week1/index.html#applications-of-statistics-in-different-fields",
-    "href": "week1/index.html#applications-of-statistics-in-different-fields",
-    "title": "Biostatistics and Data Analysis",
-    "section": "Applications of statistics in different fields",
-    "text": "Applications of statistics in different fields\n\n\n\n\n\n\n\n\n\nTerminology\nField\n\n\n\n\nEpidemiology\nThe study and analysis of the patterns, causes and effects of health and disease conditions\n\n\nAstrostatistics\nApplies statistical analysis to the understanding of astronomical data\n\n\nBiostatistics\nStudies biological phenomena\n\n\nDemography\nStatistical study of all populations\n\n\nSocial statistics\nStudy human behavior in a social environment\n\n\nChemometrics\nScience of extracting information from chemical systems by data-driven means"
+    "objectID": "week2/03-chap3.html#what-is-rstudio",
+    "href": "week2/03-chap3.html#what-is-rstudio",
+    "title": "Introduction to R programming basics and R studio",
+    "section": "",
+    "text": "An Integrated Development Environment (IDE) for R.\n\n\nMakes working with R much easier."
   },
   {
     "objectID": "index.html",
@@ -362,6 +341,48 @@
     "title": "Biostatistics and Data Analysis",
     "section": "Slides",
     "text": "Slides\nSlides 1\nSlides 2-1\nSlides 2-2\nSlides 3"
+  },
+  {
+    "objectID": "week1/index.html#learning-objective",
+    "href": "week1/index.html#learning-objective",
+    "title": "Biostatistics and Data Analysis",
+    "section": "Learning Objective:",
+    "text": "Learning Objective:\nBy the end of this lecture, students will be able to:\n\nDefine statistics and explain its fundamental concepts.\nIdentify the various fields and contexts where statistics is used.\nExplain the importance and significance of statistics in decision-making and problem-solving processes."
+  },
+  {
+    "objectID": "week1/index.html#what-is-statistics",
+    "href": "week1/index.html#what-is-statistics",
+    "title": "Biostatistics and Data Analysis",
+    "section": "What is Statistics?",
+    "text": "What is Statistics?\n\nThe science of collecting, organizing, and analyzing data, and presenting and interpreting the results derived from that data to gain insights and make informed decisions."
+  },
+  {
+    "objectID": "week1/index.html#summary-measures",
+    "href": "week1/index.html#summary-measures",
+    "title": "Biostatistics and Data Analysis",
+    "section": "Summary measures",
+    "text": "Summary measures\n\n\n\n\n\n\nGender\nA\nB\nC\nWeight\n\n\n\n\n\nFemale:50\nMin. : 70.00\nMin. :1.200\nMin. :1.400\nMin. :1729\n\n\n\nMale :50\n1st Qu.: 99.40\n1st Qu.:2.775\n1st Qu.:3.000\n1st Qu.:3214\n\n\n\nNA\nMedian :100.10\nMedian :3.250\nMedian :3.550\nMedian :4224\n\n\n\nNA\nMean : 99.39\nMean :3.309\nMean :3.573\nMean :4239\n\n\n\nNA\n3rd Qu.:100.70\n3rd Qu.:3.900\n3rd Qu.:4.100\n3rd Qu.:5014\n\n\n\nNA\nMax. :110.00\nMax. :6.100\nMax. :6.300\nMax. :9221"
+  },
+  {
+    "objectID": "week1/index.html#presenting-data-example",
+    "href": "week1/index.html#presenting-data-example",
+    "title": "Biostatistics and Data Analysis",
+    "section": "Presenting Data: Example",
+    "text": "Presenting Data: Example\nhttps://thiyangt.github.io/dsjobtraker_dashboard_mc/#top-software-and-skills"
+  },
+  {
+    "objectID": "week1/index.html#from-the-tracking-data-of-elephants-researchers-gained-insights-into-their-behavior-such-as-which-habitats-they-preferred-during-dry-seasons-and-how-migration-routes-changed-with-rainfall-patterns.",
+    "href": "week1/index.html#from-the-tracking-data-of-elephants-researchers-gained-insights-into-their-behavior-such-as-which-habitats-they-preferred-during-dry-seasons-and-how-migration-routes-changed-with-rainfall-patterns.",
+    "title": "Biostatistics and Data Analysis",
+    "section": "From the tracking data of elephants, researchers gained insights into their behavior — such as which habitats they preferred during dry seasons and how migration routes changed with rainfall patterns.",
+    "text": "From the tracking data of elephants, researchers gained insights into their behavior — such as which habitats they preferred during dry seasons and how migration routes changed with rainfall patterns."
+  },
+  {
+    "objectID": "week1/index.html#applications-of-statistics-in-different-fields",
+    "href": "week1/index.html#applications-of-statistics-in-different-fields",
+    "title": "Biostatistics and Data Analysis",
+    "section": "Applications of statistics in different fields",
+    "text": "Applications of statistics in different fields\n\n\n\n\n\n\n\n\n\nTerminology\nField\n\n\n\n\nEpidemiology\nThe study and analysis of the patterns, causes and effects of health and disease conditions\n\n\nAstrostatistics\nApplies statistical analysis to the understanding of astronomical data\n\n\nBiostatistics\nStudies biological phenomena\n\n\nDemography\nStatistical study of all populations\n\n\nSocial statistics\nStudy human behavior in a social environment\n\n\nChemometrics\nScience of extracting information from chemical systems by data-driven means"
   },
   {
     "objectID": "week2/answers.html",

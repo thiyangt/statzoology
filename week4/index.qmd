@@ -1,6 +1,6 @@
 ---
 title: "Biostatistics and Data Analysis"
-subtitle: "Types of Data"
+subtitle: "Types of Variables"
 author: "Dr. Thiyanga S. Talagala <br/>  Department of Statistics, Faculty of Applied Sciences <br/> University of Sri Jayewardenepura, Sri Lanka"
 format:
   revealjs:
@@ -65,13 +65,13 @@ colnames(df) <- c("Variable name", "Variable description")
 df |> knitr::kable()
 ```
 
-## Types of data
+## Types of Variables
 
 ```{r, fig.height=10, out.width="200%"}
 knitr::include_graphics("datatypes.png")
 ```
 
-## Qualitative/ Categorical Data
+## Qualitative/ Categorical Variables
 
 -   Describes categories or groups
 
@@ -85,7 +85,7 @@ knitr::include_graphics("datatypes.png")
 
 Your turn: Identify qualitative variables in the penguins dataset.
 
-## Quantitative data/ Numerical Data
+## Quantitative Variables/ Numerical Variables
 
 -   Represents measurable quantities
 

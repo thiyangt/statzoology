@@ -1,0 +1,28 @@
+# Introduction to R programming basics and R studio {#sec-chap3}
+
+## What is R and RStudio?
+
+R is a programming language and software environment designed mainly for statistical computing, data analysis, and visualization.
+
+#### Why R?
+
+- Free and Open-Source
+
+- Rapidly developing
+
+- Excellent for Visualization and statistical data analysis
+
+- Active community of users and developers
+
+## What is RStudio?
+
+An Integrated Development Environment (IDE) for R.
+
+#### Why RStudio?
+
+Makes working with R much easier.
+
+## Download and Installing R and R Studio
+
+
+
